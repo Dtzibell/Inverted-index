@@ -119,6 +119,7 @@ class MainWindow(QMainWindow):
         text=text.read()
         story_dialog.text.setText(text)
         story_dialog.exec()
+        #ok comment
 
     def read_text_file(self,file_path) :
         """
